@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #252527;
+	box-shadow: 8px 8px 12px #aaa;	
+}
+
+header section div {
+	display: inline-block;
+}
+
+#img {
+	position: relative;
+	margin: 10px 50px 10px 50px;
+	float: left;
+}
+
+#en-tete {
+	color: #FFF;
+	background: #C01369;
+	/*border-radius: 10px;*/
+	text-align: left;
+	padding: 10px 300px 10px 10px;
+	margin: 55px 0 10px 0;
+}
+
+
+#liens {
+	display: inline-block;
+}
+
+nav ul {
+	margin-left: 100px;
+}
+
+nav ul li {
+	list-style: none
+}
+
+nav ul li a:hover {
+    color: #C01369;
+    text-decoration: overline;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+ }
+
+ nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+body {
+	background: #FFF;
+}
+
+h3 {
+	text-align: left;
+}
+
+main ul li {
+	list-style-type: square;
+}
+
+.titres {
+	text-align: center;
+	font-size: 30pt;
+	font-variant: small-caps;
+	margin-bottom: 20px;
+}
+
+.category {
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #7ACCBF;
+	margin: 50px 100px 50px 50px;
+	padding: 10px 50px 20px 50px;
+	background: #7ACCBF;	
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.divers {
+	border: 2px solid;
+	border-radius: 10px;
+	border-color: #FFF;
+	margin: 15px;
+	padding: 10px;
+	background: #FFF;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+.first {
+	font-weight: bold;
+}
+
+.second {
+	font-style: italic;
+}
+
+#right {
+	float: right;
+	position: relative;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+#left {
+	float: left;
+	background: #7ACCBF;
+	padding: 200px 10px 680px 10px;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+#dev, #ops, #transv {
+	display: inline-table;
+	width: 10%;
+	padding-left: 80px;
+}
+
+#gauche {
+	float: left;
+	margin: 0 20px 200px 20px;
+}
+
+#info {
+	list-style-type: none;
+	text-align: left;
+}
+
+#loisirs {
+	padding: 10px 10px 30px 10px;
+}
+
+#loisirs ul li {
+	list-style-type: square;
+}
+
+#mail {
+	padding-right: 10px;
+}
+
+#tel {
+	padding-right: 20px;
+}
+
+#home {
+	padding-right: 10px;
+}
+
+#car {
+	padding-right: 10px;
+}
+
+#age {
+	padding-right: 18px;
+}
+
+footer {
+	clear: both;
+	background: #333333;
+	height: 20px;
+	padding: auto;
+	position: relative;
+}
+
+footer p { 
+	font-size: 12px;
+	text-align: center;
+	color: #FFF;
+}
+
+.clear {
+	clear: both;
+}
