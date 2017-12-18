@@ -5,7 +5,7 @@
 
 header {
 	background: #252527;
-	box-shadow: 8px 8px 12px #aaa;	
+	box-shadow: 8px 8px 12px #aaa;
 }
 
 header section div {
@@ -83,8 +83,8 @@ main ul li {
 	border-radius: 10px;
 	border-color: #7ACCBF;
 	margin: 50px 100px 50px 50px;
-	padding: 10px 50px 20px 50px;
-	background: #7ACCBF;	
+	padding: 10px 10px 20px 10px;
+	background: #7ACCBF;
 	box-shadow: 8px 8px 12px #aaa;
 }
 
@@ -109,7 +109,7 @@ main ul li {
 #right {
 	float: right;
 	position: relative;
-	margin-right: 50px;
+	margin-right: auto;
 	margin-bottom: 20px;
 	margin-top: 20px;
 
@@ -124,11 +124,11 @@ main ul li {
 
 #dev, #ops, #transv {
 	display: inline-table;
-	width: 10%;
+	width: 23%;
 	padding-left: 80px;
 }
 
-#gauche {
+#info_loisirs {
 	float: left;
 	margin: 0 20px 200px 20px;
 }
@@ -174,7 +174,7 @@ footer {
 	position: relative;
 }
 
-footer p { 
+footer p {
 	font-size: 12px;
 	text-align: center;
 	color: #FFF;
