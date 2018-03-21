@@ -7,63 +7,72 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/styles/common.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
 	<header>
-		<section>
-
-			<div id="img">
-				<img src="assets/img/cv_pic.jpg" alt="photo" title="photo" height="240px" width="188px">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  		<img src="assets/img/cv_pic.jpg" width="12%" class="d-inline-block align-top" alt="photo" title="photo">
+		  	
+		  	<div id="en-tete">
+				<h1><strong>BRITEAU Clémence</strong></h1>
+				<h2>
+					<strong>Développeuse Web</strong>					
+					<br>
+					En recherche de stage (3 à 5 mois)
+				</h2>				
 			</div>
 
+		  	<div class="collapse navbar-collapse" id="navbarNav">		  		
+		    	<ul class="navbar-nav">
+		      		<li class="nav-item"><a class="nav-link active" href="#skills">Compétences</a></li>
+				    <li class="nav-item"><a class="nav-link active" href="#exp">Expérience professionnelles</a></li>
+		      		<li class="nav-item"><a class="nav-link active" href="#formation">Formation</a></li>
+		    	</ul>
+		  </div>
+		</nav>
+		<!-- <nav>
+
+			<div>
+				<img src="assets/img/cv_pic.jpg" alt="photo" title="photo">
+			</div>
+			
 			<div id="en-tete">
-				<h1>BRITEAU Clémence</h1>
-				<h2>Développeuse Web/Logiciel</h2>
-				<h2>En recherche de stage (3 à 5 mois)</h2>
+				<h1>
+					<strong>BRITEAU Clémence</strong> 
+					<br>
+					<span>Développeuse Web - En recherche de stage (3 à 5 mois)</span>
+				</h1>				
 			</div>
-
-
-			<div id="liens">
-				<nav>
-					<ul>
-            			<li><a href="#formation" title="Formation">Formation</a></li>
-            			<li><a href="#comp" title="Compétences">Compétences</a></li>
-            			<li><a href="#exp" title="Expérience professionnelle">Expérience professionnelle</a></li>
-            		</ul>
-				</nav>
-			</div>
-
-		</section>
-		<div class="clear">
-
-		</div>
+			<ul>
+				<li><a href="#skills" title="Compétences">Compétences</a></li>
+				<li><a href="#exp" title="Expérience professionnelle">Expérience professionnelle</a></li>
+    			<li><a href="#formation" title="Formation">Formation</a></li>
+    		</ul>
+		</nav>		 -->	
 	</header>
 
-	<main id="right">
-
-
-
-			<div class="category" id="comp">
-				<h2 class="titres" id="skills">Compétences</h2>
+	<div id="main">
+			<div class="category" id="skills">
+				<h2 class="titres">Compétences</h2>
+				<div id="comp">
 					<div id="dev">
 						<h3>Développement</h3>	<!--En cours d'acquisition/Acquis-->
 						<ul>
-							
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
 							<li>Python</li>
-							<li>P.O.O (C++, Python, Java, PHP)</li>
-						</ul>
-					</div>
-
-					<div id="ops">
-						<h3>Réseau</h3>   <!--Différencier Outils et Compétences-->
-						<ul>
-							<li>Virtualisation</li>
-							<li>Adressage Ipv4</li>
+							<li>PHP</li>
+							<li>Java</li>
+							<li>P.O.O <br> (C++, Python, Java)</li>
 							<li>Base de données</li>
+							<li>CMS WordPress</li>
 						</ul>
 					</div>
 
@@ -74,88 +83,99 @@
 							<li>Relation clients</li>
 						</ul>
 					</div>
+				</div>			
 			</div>
 
-			<div class="category">
+			<div class="category" id="exp">
 				<h2 class="titres">Expérience professionnelle</h2>
-				<div>
-					<ul>
-						<li>
-							<p class="first">Eté 2017 - Hôtesse de caisse </p>
-							<p>Super U - La Turballe</p>
-							<br>
-						</li>
-						<li>
-							<p class="first">Eté 2016 - Employée commerciale </li></p>
-							<p>Super U - La Turballe</p>
-							<p class="second">Mise en rayon Fruits et Légumes</p>
-							<br>
-						<li>
-							<p class="first">Eté 2015 - Vendeuse sur les marchés</p>
-							<p>Piriac-sur-mer et La Baule-Escoublac</p>
-							<p class="second">Vente de pâtes fraîches italiennes pour « La Pasta »</p>
-							<br>
-						</li>
-						<li>
-							<p class="first">Juillet 2014 - Soutien à l'activité au service scolarité de l'IUT de Saint-Nazaire</p>
-							<p>IUT de Saint-Nazaire - Université de Nantes</p>
-							<p class="second">Inscriptions des étudiants</p>
-						</li>
-					</ul>
-				</div>
+				<ul>
+					<li>
+						<span class="first">Juillet - Août 2017 : Hôtesse de caisse</span>
+						<br>
+						<span>Super U - La Turballe</span>
+					</li>
+					<li>
+						<span class="first">Juillet - Août 2016 : Employée commerciale </span>
+						<br>
+						<span>Super U - La Turballe</span>
+						<br>
+						<span class="second">Mise en rayon Fruits et Légumes</span>
+					</li>
+					<li>
+						<span class="first">Juillet - Août 2015 : Vendeuse sur les marchés</span>
+						<br>
+						<span>Piriac-sur-mer et La Baule-Escoublac</span>
+						<br>
+						<span class="second">Vente de pâtes fraîches italiennes pour « La Pasta »</span>
+					</li>
+					<li>
+						<span class="first">Juillet 2014 : Soutien à l'activité au service scolarité de l'IUT de Saint-Nazaire</span>
+						<br>
+						<span>IUT de Saint-Nazaire - Université de Nantes</span>
+						<br>
+						<span class="second">Inscriptions des étudiants</span>
+					</li>
+				</ul>
 			</div>
 
 			<div class="category" id="formation">
 				<h2 class="titres">Formation</h2>
 				<ul>
 					<li>
-						<p class="first">2017-2018 : IT Start - Fondamentaux développement et réseau</p>
-						<p>Préparation en 3 ans du Titre RNCP Concepteur Développeur en Projet Numérique</p>
-						<p class="second">IMIE Nantes, Ecole de la filière numérique</p>
+						<span class="first">2017-2018 : IT Start - Fondamentaux développement et réseau</span>
 						<br>
+						<span>Formation en 6 mois de cours puis 3 à 5 mois de stage </span>
+						<br>
+						<span>Première année de la préparation en 3 ans du Titre RNCP Concepteur Développeur en Projet Numérique</span>
+						<br>
+						<span class="second">IMIE Nantes, Ecole de la filière numérique</span>
 					</li>
 					<li>
-						<p class="first">2014-2017 : Licence Anglais LLCE - Langues et Cultures Etrangères</p>
-						<p>Diplômée en 2017</p>
-						<p class="second">Faculté de Langues – Université de Nantes</p>
+						<span class="first">2014-2017 : Licence Anglais LLCE - Langues et Cultures Etrangères</span>
 						<br>
+						<span>Diplômée en 2017</span>
+						<br>
+						<span class="second">Faculté de Langues – Université de Nantes</span>
 					</li>
 					<li>
-						<p class="first">2013-2014 : PACES - Première Année Commune aux Etudes de Santé</p>
-						<p class="second">Faculté de Médecine – Université de Nantes</p>
+						<span class="first">2013-2014 : PACES - Première Année Commune aux Etudes de Santé</span>
 						<br>
+						<span class="second">Faculté de Médecine – Université de Nantes</span>
 					</li>
 					<li>
-						<p class="first">2013 : Bac Scientifique</p>
-						<p class="second">Lycée Galilée – 44350, Guérande</p>
+						<span class="first">2013 : Bac Scientifique</span>
+						<br>
+						<span class="second">Lycée Galilée – 44350, Guérande</span>
 					</li>
 				</ul>
 			</div>
 
-	</main>
+	</div>
 
-	<section id="left">
-		<section id="info_loisirs">
-			<div class="divers" id="info">
-				<p><i class="fa fa-envelope" aria-hidden="true" id="mail"></i> cbriteau@hotmail.fr</p>
-				<p><i class="fa fa-mobile" aria-hidden="true" id="tel"></i> 06 99 39 02 57</p>
-				<p><i class="fa fa-home" aria-hidden="true" id="home"></i> 150 rue Paul Bellamy, 44000 Nantes</p>
-				<p><i class="fa fa-car" aria-hidden="true" id="car"></i> Permis B</p>
-				<p><i class="fa fa-female" aria-hidden="true" id="age"></i> 23 ans</p>
-			</div>
+	<section id="sidebar">
 
-			<div class="divers" id="loisirs">
-				<h2 class="titres">Centre d'intérêts</h2>
-					<ul>
-						<li>Séries TV</li>
-						<li>Lecture (Romans en anglais et français, BD)</li>
-						<li>Science-fiction</li>
-					</ul>
-			</div>
-		</section>
+		<div class="divers" id="info">
+			<p><i class="fa fa-envelope" aria-hidden="true" id="mail"></i> cbriteau@hotmail.fr</p>
+			<p><i class="fa fa-mobile" aria-hidden="true" id="tel"></i> 06 99 39 02 57</p>
+			<p><i class="fa fa-home" aria-hidden="true" id="home"></i> 150 rue Paul Bellamy, 44000 Nantes</p>
+			<p><i class="fa fa-car" aria-hidden="true" id="car"></i> Permis B</p>
+			<p><i class="fa fa-female" aria-hidden="true" id="age"></i> 23 ans</p>
+		</div>
+
+		<div class="divers" id="loisirs">
+			<h2 class="titres">Centre d'intérêts</h2>
+				<ul>
+					<li>Séries TV</li>
+					<li>Lecture (Romans en anglais et français, BD)</li>
+					<li>Jeux vidéos</li>
+					<li>Science-fiction</li>
+				</ul>
+		</div>
+
 		<div class="clear">
 
 		</div>
+
 	</section>
 
 	<footer>

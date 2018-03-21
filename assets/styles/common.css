@@ -1,73 +1,72 @@
-* {
-	margin: 0;
-    font-family: 'Open Sans', sans-serif;
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
 	background: #252527;
 	box-shadow: 8px 8px 12px #aaa;
-}
-
-header section div {
-	display: inline-block;
-}
-
-#img {
 	position: relative;
-	margin: 10px 50px 10px 50px;
-	float: left;
 }
+
+/*img {
+	width: 12%;
+}*/
 
 #en-tete {
 	color: #FFF;
 	background: #C01369;
-	/*border-radius: 10px;*/
 	text-align: left;
-	padding: 10px 300px 10px 10px;
-	margin: 55px 0 10px 0;
+	padding: 1%;
+	width: 40%;
 }
 
-#liens {
-	display: inline-block;
-}
-
-nav ul {
-	margin-left: 100px;
+/*nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 nav ul li {
 	list-style: none
 }
 
-nav ul li a:hover {
-    color: #C01369;
-    text-decoration: overline;
-    display: inline-block;
-    padding: 5px 10px 5px 10px;
- }
-
  nav ul li a {
     color: #FFF;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     padding: 5px 10px 5px 10px;
     font-size: 16pt;
     text-align: center;
 }
 
+nav ul li a:hover {
+    color: #C01369;
+    text-decoration: overline;
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}*/
+
 h1 {
 	font-size: 30pt;
-}
-
-body {
-	background: #FFF;
 }
 
 h3 {
 	text-align: left;
 }
 
-main ul li {
+#main {
+	position: relative;
+	width: 60%;
+	float: right;
+
+}
+
+#main ul li {
 	list-style-type: square;
 }
 
@@ -79,23 +78,14 @@ main ul li {
 }
 
 .category {
-	border: 2px solid;
-	border-radius: 10px;
-	border-color: #7ACCBF;
 	margin: 50px 100px 50px 50px;
 	padding: 10px 10px 20px 10px;
 	background: #7ACCBF;
 	box-shadow: 8px 8px 12px #aaa;
 }
 
-.divers {
-	border: 2px solid;
-	border-radius: 10px;
-	border-color: #FFF;
-	margin: 15px;
-	padding: 10px;
-	background: #FFF;
-	box-shadow: 8px 8px 12px #aaa;
+.category ul li {
+	padding: 1%;
 }
 
 .first {
@@ -106,40 +96,49 @@ main ul li {
 	font-style: italic;
 }
 
-#right {
-	float: right;
-	position: relative;
-	margin-right: auto;
-	margin-bottom: 20px;
-	margin-top: 20px;
-
+#dev {
+	display: inline-block;
 }
 
-#left {
+#transv {
+	display: inline-block;
+}
+
+#comp {
+	display: flex;
+	justify-content: space-around;
+}
+
+#sidebar {
 	float: left;
+	position: relative;
 	background: #7ACCBF;
-	padding: 200px 10px 680px 10px;
+	padding-bottom: 100%;
+	padding-top: 1%;
 	box-shadow: 8px 8px 12px #aaa;
 }
 
-#dev, #ops, #transv {
-	display: inline-table;
-	width: 23%;
-	padding-left: 80px;
+.divers {
+	border: 2px solid;
+	border-color: #FFF;
+	margin: 15px;
+	padding: 10px;
+	background: #FFF;
 }
 
 #info_loisirs {
-	float: left;
-	margin: 0 20px 200px 20px;
+	padding: 2%;
 }
 
 #info {
 	list-style-type: none;
 	text-align: left;
+	padding: 2%;
+	line-height: 0.1em;
 }
 
 #loisirs {
-	padding: 10px 10px 30px 10px;
+	padding: 2%;
 }
 
 #loisirs ul li {
@@ -169,13 +168,11 @@ main ul li {
 footer {
 	clear: both;
 	background: #333333;
-	height: 20px;
-	padding: auto;
+	height: 1%;
 	position: relative;
 }
 
 footer p {
-	font-size: 12px;
 	text-align: center;
 	color: #FFF;
 }
