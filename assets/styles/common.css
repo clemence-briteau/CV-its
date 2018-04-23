@@ -9,47 +9,34 @@ body {
 
 header {
 	background: #252527;
-	box-shadow: 8px 8px 12px #aaa;
-	position: relative;
 }
 
-/*img {
-	width: 12%;
-}*/
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+img {
+	margin: 1%;
+}
 
 #en-tete {
 	color: #FFF;
-	background: #C01369;
-	text-align: left;
+/*	background: #C01369;
+*/	text-align: left;
 	padding: 1%;
-	width: 40%;
+	margin-top: 2%;
 }
 
-/*nav {
+header ul {
+	list-style: none;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 }
 
-nav ul li {
-	list-style: none
+header ul li a img {
+	width: 10%;
 }
-
- nav ul li a {
-    color: #FFF;
-    text-decoration: none;
-    display: inline;
-    padding: 5px 10px 5px 10px;
-    font-size: 16pt;
-    text-align: center;
-}
-
-nav ul li a:hover {
-    color: #C01369;
-    text-decoration: overline;
-    display: inline;
-    padding: 5px 10px 5px 10px;
-}*/
 
 h1 {
 	font-size: 30pt;
@@ -63,7 +50,7 @@ h3 {
 	position: relative;
 	width: 60%;
 	float: right;
-
+	display: inline-block;
 }
 
 #main ul li {
@@ -78,8 +65,12 @@ h3 {
 }
 
 .category {
-	margin: 50px 100px 50px 50px;
-	padding: 10px 10px 20px 10px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-right: 20%;
+	padding: 2%;
+/*	margin: 50px 100px 50px 50px;
+	padding: 10px 10px 20px 10px; */
 	background: #7ACCBF;
 	box-shadow: 8px 8px 12px #aaa;
 }
@@ -106,6 +97,7 @@ h3 {
 
 #comp {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
 }
 
@@ -116,6 +108,7 @@ h3 {
 	padding-bottom: 100%;
 	padding-top: 1%;
 	box-shadow: 8px 8px 12px #aaa;
+	height: 100%;
 }
 
 .divers {
@@ -130,11 +123,8 @@ h3 {
 	padding: 2%;
 }
 
-#info {
-	list-style-type: none;
-	text-align: left;
+#info {	
 	padding: 2%;
-	line-height: 0.1em;
 }
 
 #loisirs {
@@ -150,7 +140,8 @@ h3 {
 }
 
 #tel {
-	padding-right: 20px;
+	padding-right: 14px;
+	padding-left: 4px;
 }
 
 #home {
@@ -162,7 +153,8 @@ h3 {
 }
 
 #age {
-	padding-right: 18px;
+	padding-right: 12px;
+	padding-left: 4px;
 }
 
 footer {
@@ -170,9 +162,6 @@ footer {
 	background: #333333;
 	height: 1%;
 	position: relative;
-}
-
-footer p {
 	text-align: center;
 	color: #FFF;
 }
